@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Crear Persona</h1>
+      <form id="formPersona">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" />
+        </div>
+
+        <div class="form-group">
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" />
+        </div>
+
+        <div class="form-group">
+          <label for="dni">DNI:</label>
+          <input type="text" id="dni" />
+        </div>
+
+        <div class="form-group">
+          <label for="sexo">Sexo (H/M):</label>
+          <input type="text" id="sexo" maxlength="1" />
+        </div>
+
+        <div class="form-group">
+          <label for="peso">Peso:</label>
+          <input type="number" id="peso" />
+        </div>
+
+        <div class="form-group">
+          <label for="altura">Altura:</label>
+          <input type="number" id="altura" />
+        </div>
+
+        <div class="form-group">
+          <label for="anio">Año de nacimiento:</label>
+          <input type="number" id="anio" />
+        </div>
+
+        <button type="button" class="btn-primary" onclick="crearPersona()">
+          Crear Persona
+        </button>
+      </form>
+
+      <div class="actions">
+        <button class="btn-secondary" onclick="persona.mostrarGeneracion()">
+          Mostrar generación
+        </button>
+        <button class="btn-secondary" onclick="persona.esMayorDeEdad()">
+          Es mayor de edad
+        </button>
+        <button class="btn-secondary" onclick="persona.mostrarDatos()">
+          Mostrar datos
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="/clase-persona/ejercicio-2.js"></script>
+</html>
