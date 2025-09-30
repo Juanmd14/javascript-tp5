@@ -1,31 +1,37 @@
-TP5 - Ejercicios de DOM y BOM
+# TP5 - Ejercicios de DOM y BOM
+
 Trabajo Práctico N°5 del curso - Ejercicios de manipulación del DOM y BOM con JavaScript.
-📋 Contenido
+
+## 📋 Contenido
+
 Este TP incluye 6 ejercicios:
 
-Números Mágicos - Generación de números aleatorios
-Clase Persona - POO en JavaScript
-Lista de Tareas - CRUD de tareas
-Reloj - Reloj digital en tiempo real
-Cronómetro - Cronómetro con inicio/pausa/reinicio
-Temporizador - Cuenta regresiva configurable
+1. **Números Mágicos** - Generación de números aleatorios
+2. **Clase Persona** - POO en JavaScript
+3. **Lista de Tareas** - CRUD de tareas
+4. **Reloj** - Reloj digital en tiempo real
+5. **Cronómetro** - Cronómetro con inicio/pausa/reinicio
+6. **Temporizador** - Cuenta regresiva configurable
 
-🚀 Cómo usar
+## 🚀 Cómo usar
 
-Abre el archivo index.html en tu navegador
-Haz clic en cualquier planeta para acceder a cada ejercicio
+1. Abre el archivo `index.html` en tu navegador
+2. Haz clic en cualquier planeta para acceder a cada ejercicio
 
-🛠️ Tecnologías
+## 🛠️ Tecnologías
 
-HTML5
-CSS3
-JavaScript
-Bootstrap 5
-SweetAlert2
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- SweetAlert2
 
-📁 Estructura
+## 📁 Estructura
+
+```
 TP5/
-├── index.html              # Página principal
+│
+├── index.html
 ├── style.css
 ├── numeros-magicos/
 ├── clase-persona/
@@ -33,5 +39,8 @@ TP5/
 ├── reloj/
 ├── ejercicio5/
 └── ejercicio6/
+```
 
-Nota: Se requiere conexión a internet para cargar Bootstrap y SweetAlert2.
+---
+
+**Nota:** Se requiere conexión a internet para cargar Bootstrap y SweetAlert2.
