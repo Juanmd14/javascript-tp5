@@ -42,5 +42,3 @@ TP5/
 ```
 
 ---
-
-**Nota:** Se requiere conexión a internet para cargar Bootstrap y SweetAlert2.
