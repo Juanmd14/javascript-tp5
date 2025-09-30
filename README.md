@@ -33,3 +33,5 @@ TP5/
 ├── reloj/
 ├── ejercicio5/
 └── ejercicio6/
+
+Nota: Se requiere conexión a internet para cargar Bootstrap y SweetAlert2.
